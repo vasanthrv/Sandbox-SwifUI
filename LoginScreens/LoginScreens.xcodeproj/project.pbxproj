@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1113DA82BF324F300139568 /* UpdatePhonePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1113DA72BF324F300139568 /* UpdatePhonePage.swift */; };
+		E1113DAA2BF324F800139568 /* UpdateEmailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1113DA92BF324F800139568 /* UpdateEmailPage.swift */; };
+		E1113DAC2BF3250900139568 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1113DAB2BF3250900139568 /* LandingPage.swift */; };
+		E1113DAE2BF3251100139568 /* EmailLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1113DAD2BF3251100139568 /* EmailLoginPage.swift */; };
+		E1113DB02BF3254100139568 /* LoginTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1113DAF2BF3254100139568 /* LoginTemplate.swift */; };
+		E1113DB22BF3255A00139568 /* LoginBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1113DB12BF3255A00139568 /* LoginBackground.swift */; };
+		E1113DB42BF325C300139568 /* AdaptsToKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1113DB32BF325C300139568 /* AdaptsToKeyboard.swift */; };
+		E1113DB62BF3260300139568 /* EFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1113DB52BF3260300139568 /* EFont.swift */; };
+		E1113DB82BF3265000139568 /* EDateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1113DB72BF3265000139568 /* EDateField.swift */; };
+		E18624E52BF323FD00FE85FF /* LoginScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18624E42BF323FD00FE85FF /* LoginScreensApp.swift */; };
+		E18624E72BF323FD00FE85FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18624E62BF323FD00FE85FF /* ContentView.swift */; };
+		E18624E92BF323FF00FE85FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18624E82BF323FF00FE85FF /* Assets.xcassets */; };
+		E18624EC2BF323FF00FE85FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E18624EB2BF323FF00FE85FF /* Preview Assets.xcassets */; };
+		E18624F32BF3242E00FE85FF /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18624F22BF3242E00FE85FF /* RegisterPage.swift */; };
+		E18624F52BF3244900FE85FF /* ETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18624F42BF3244900FE85FF /* ETextField.swift */; };
+		E18624F72BF3246500FE85FF /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18624F62BF3246500FE85FF /* OTPVerificationView.swift */; };
+		E18624F92BF3246A00FE85FF /* UpdatePasswordPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18624F82BF3246A00FE85FF /* UpdatePasswordPage.swift */; };
+		E18624FD2BF3247F00FE85FF /* MobileLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18624FC2BF3247F00FE85FF /* MobileLoginPage.swift */; };
+		E1D1ECA32BF61106004B94A9 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D1ECA22BF61106004B94A9 /* CarouselView.swift */; };
+		E1D1ECA52BF6127E004B94A9 /* MoviesCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D1ECA42BF6127E004B94A9 /* MoviesCarousel.swift */; };
+		E1D1ECA72BF626DD004B94A9 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D1ECA62BF626DD004B94A9 /* SnapCarousel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1113DA72BF324F300139568 /* UpdatePhonePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePhonePage.swift; sourceTree = "<group>"; };
+		E1113DA92BF324F800139568 /* UpdateEmailPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateEmailPage.swift; sourceTree = "<group>"; };
+		E1113DAB2BF3250900139568 /* LandingPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		E1113DAD2BF3251100139568 /* EmailLoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailLoginPage.swift; sourceTree = "<group>"; };
+		E1113DAF2BF3254100139568 /* LoginTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTemplate.swift; sourceTree = "<group>"; };
+		E1113DB12BF3255A00139568 /* LoginBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBackground.swift; sourceTree = "<group>"; };
+		E1113DB32BF325C300139568 /* AdaptsToKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptsToKeyboard.swift; sourceTree = "<group>"; };
+		E1113DB52BF3260300139568 /* EFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EFont.swift; sourceTree = "<group>"; };
+		E1113DB72BF3265000139568 /* EDateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDateField.swift; sourceTree = "<group>"; };
+		E18624E12BF323FD00FE85FF /* LoginScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E18624E42BF323FD00FE85FF /* LoginScreensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreensApp.swift; sourceTree = "<group>"; };
+		E18624E62BF323FD00FE85FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E18624E82BF323FF00FE85FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E18624EB2BF323FF00FE85FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E18624F22BF3242E00FE85FF /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		E18624F42BF3244900FE85FF /* ETextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETextField.swift; sourceTree = "<group>"; };
+		E18624F62BF3246500FE85FF /* OTPVerificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		E18624F82BF3246A00FE85FF /* UpdatePasswordPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdatePasswordPage.swift; path = ../UpdatePasswordPage.swift; sourceTree = "<group>"; };
+		E18624FC2BF3247F00FE85FF /* MobileLoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileLoginPage.swift; sourceTree = "<group>"; };
+		E1D1ECA22BF61106004B94A9 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		E1D1ECA42BF6127E004B94A9 /* MoviesCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCarousel.swift; sourceTree = "<group>"; };
+		E1D1ECA62BF626DD004B94A9 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E18624DE2BF323FD00FE85FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E18624D82BF323FD00FE85FF = {
+			isa = PBXGroup;
+			children = (
+				E18624E32BF323FD00FE85FF /* LoginScreens */,
+				E18624E22BF323FD00FE85FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E18624E22BF323FD00FE85FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E18624E12BF323FD00FE85FF /* LoginScreens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E18624E32BF323FD00FE85FF /* LoginScreens */ = {
+			isa = PBXGroup;
+			children = (
+				E18624E42BF323FD00FE85FF /* LoginScreensApp.swift */,
+				E18624E62BF323FD00FE85FF /* ContentView.swift */,
+				E18624F42BF3244900FE85FF /* ETextField.swift */,
+				E1D1ECA22BF61106004B94A9 /* CarouselView.swift */,
+				E1D1ECA62BF626DD004B94A9 /* SnapCarousel.swift */,
+				E1D1ECA42BF6127E004B94A9 /* MoviesCarousel.swift */,
+				E18624FE2BF3248700FE85FF /* LoginPages */,
+				E18624E82BF323FF00FE85FF /* Assets.xcassets */,
+				E18624EA2BF323FF00FE85FF /* Preview Content */,
+			);
+			path = LoginScreens;
+			sourceTree = "<group>";
+		};
+		E18624EA2BF323FF00FE85FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E18624EB2BF323FF00FE85FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E18624FE2BF3248700FE85FF /* LoginPages */ = {
+			isa = PBXGroup;
+			children = (
+				E18624F62BF3246500FE85FF /* OTPVerificationView.swift */,
+				E1113DAB2BF3250900139568 /* LandingPage.swift */,
+				E1113DAD2BF3251100139568 /* EmailLoginPage.swift */,
+				E18624FC2BF3247F00FE85FF /* MobileLoginPage.swift */,
+				E18624F82BF3246A00FE85FF /* UpdatePasswordPage.swift */,
+				E1113DAF2BF3254100139568 /* LoginTemplate.swift */,
+				E1113DB52BF3260300139568 /* EFont.swift */,
+				E1113DB32BF325C300139568 /* AdaptsToKeyboard.swift */,
+				E1113DB12BF3255A00139568 /* LoginBackground.swift */,
+				E1113DA72BF324F300139568 /* UpdatePhonePage.swift */,
+				E1113DA92BF324F800139568 /* UpdateEmailPage.swift */,
+				E18624F22BF3242E00FE85FF /* RegisterPage.swift */,
+				E1113DB72BF3265000139568 /* EDateField.swift */,
+			);
+			path = LoginPages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E18624E02BF323FD00FE85FF /* LoginScreens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E18624EF2BF323FF00FE85FF /* Build configuration list for PBXNativeTarget "LoginScreens" */;
+			buildPhases = (
+				E18624DD2BF323FD00FE85FF /* Sources */,
+				E18624DE2BF323FD00FE85FF /* Frameworks */,
+				E18624DF2BF323FD00FE85FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginScreens;
+			productName = LoginScreens;
+			productReference = E18624E12BF323FD00FE85FF /* LoginScreens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E18624D92BF323FD00FE85FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E18624E02BF323FD00FE85FF = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = E18624DC2BF323FD00FE85FF /* Build configuration list for PBXProject "LoginScreens" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E18624D82BF323FD00FE85FF;
+			productRefGroup = E18624E22BF323FD00FE85FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E18624E02BF323FD00FE85FF /* LoginScreens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E18624DF2BF323FD00FE85FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18624EC2BF323FF00FE85FF /* Preview Assets.xcassets in Resources */,
+				E18624E92BF323FF00FE85FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E18624DD2BF323FD00FE85FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1113DAE2BF3251100139568 /* EmailLoginPage.swift in Sources */,
+				E1113DB62BF3260300139568 /* EFont.swift in Sources */,
+				E1113DB82BF3265000139568 /* EDateField.swift in Sources */,
+				E18624F92BF3246A00FE85FF /* UpdatePasswordPage.swift in Sources */,
+				E1D1ECA52BF6127E004B94A9 /* MoviesCarousel.swift in Sources */,
+				E18624F32BF3242E00FE85FF /* RegisterPage.swift in Sources */,
+				E1113DB22BF3255A00139568 /* LoginBackground.swift in Sources */,
+				E1113DA82BF324F300139568 /* UpdatePhonePage.swift in Sources */,
+				E1D1ECA32BF61106004B94A9 /* CarouselView.swift in Sources */,
+				E18624F72BF3246500FE85FF /* OTPVerificationView.swift in Sources */,
+				E18624F52BF3244900FE85FF /* ETextField.swift in Sources */,
+				E18624E72BF323FD00FE85FF /* ContentView.swift in Sources */,
+				E1113DB42BF325C300139568 /* AdaptsToKeyboard.swift in Sources */,
+				E1113DAC2BF3250900139568 /* LandingPage.swift in Sources */,
+				E1113DAA2BF324F800139568 /* UpdateEmailPage.swift in Sources */,
+				E18624FD2BF3247F00FE85FF /* MobileLoginPage.swift in Sources */,
+				E1D1ECA72BF626DD004B94A9 /* SnapCarousel.swift in Sources */,
+				E18624E52BF323FD00FE85FF /* LoginScreensApp.swift in Sources */,
+				E1113DB02BF3254100139568 /* LoginTemplate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E18624ED2BF323FF00FE85FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E18624EE2BF323FF00FE85FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E18624F02BF323FF00FE85FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginScreens/Preview Content\"";
+				DEVELOPMENT_TEAM = YJ4A8G74JV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ci.LoginScreens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E18624F12BF323FF00FE85FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoginScreens/Preview Content\"";
+				DEVELOPMENT_TEAM = YJ4A8G74JV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ci.LoginScreens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E18624DC2BF323FD00FE85FF /* Build configuration list for PBXProject "LoginScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18624ED2BF323FF00FE85FF /* Debug */,
+				E18624EE2BF323FF00FE85FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E18624EF2BF323FF00FE85FF /* Build configuration list for PBXNativeTarget "LoginScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E18624F02BF323FF00FE85FF /* Debug */,
+				E18624F12BF323FF00FE85FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E18624D92BF323FD00FE85FF /* Project object */;
+}
